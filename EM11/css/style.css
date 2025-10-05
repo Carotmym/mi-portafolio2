@@ -1,0 +1,26 @@
+/* styles.css - diseño limpio, tipografía legible */
+:root{
+  --bg:#ffffff;
+  --text:#111111;
+  --muted:#555;
+  --accent:#0b67d5;
+  --maxw:980px;
+}
+*{box-sizing:border-box}
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color:var(--text);
+  background:var(--bg);
+  margin:0;
+  padding:20px;
+  display:flex;
+  justify-content:center;
+}
+.site-header{max-width:var(--maxw); width:100%; margin-bottom:24px; text-align:center}
+main{max-width:var(--maxw); width:100%}
+.section{margin-bottom:28px}
+.project-list{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px}
+.project{border:1px solid #e6e6e6; padding:12px; border-radius:8px}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+footer{max-width:var(--maxw); width:100%; text-align:center; margin-top:24px; color:var(--muted)}
