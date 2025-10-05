@@ -2,7 +2,7 @@
 
 Bienvenido a mi portafolio de **Ciencia de Datos, Machine Learning y Deep Learning**.  
 Este repositorio reúne proyectos prácticos que reflejan mis habilidades en análisis de datos, modelado predictivo, visualización y despliegue de soluciones.
-
+https://carotmym.github.io/mi-portafolio2/
 ---
 
 ## 🚀 Proyectos destacados
